@@ -1,0 +1,64 @@
+---
+layout: post
+title: My Sony RX1 
+blurb: Here is a selection of photographs that I have taken with my Sony RX1 camera. This wonderful camera with a fixed 35mm Zeiss lens and full frame sensor produce some stunning images.  The design and precision of the camera is unmatched by anything currently in the market.  It has been one of the best pieces of technology I have ever acquired. You should defintely check it out.
+preview-image: /images/posts/sonyrx1/bridge.jpg
+image-title: bridge to beach
+---
+
+Just recently, I been spending a quite of bit time with my new Sony RX1 full-frame camera.  I realize this camera is for the professional photographer.  I am far from a professional.  I wouldn't even call my self a novice photographer.  But I couldn't help being attracted to such a piece of technology that excels in creating some stunning photographs.  This camera with it's full-frame sensor and fixed 35mm F3 lens has taken some breath taking photographs.  The results from this camera have exceeded my expectations.  Below are small sample of photos that I have taken.
+
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/kindle_closeup.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/kindle_closeup.jpg"/></a>
+  <p class="caption">Close up of my wife's Kindle</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/reading.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/reading.jpg"/></a>
+  <p class="caption">Shot of my wife reading her Kindle on our hammock.</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/beach.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/beach.jpg"/></a>
+  <p class="caption">Random sea weed found on the beach at Amelia Island.</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/sea_shells.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/sea_shells.jpg"/></a>
+  <p class="caption">Assortment of small sea shells scattered on the beach.</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/ocean.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/ocean.jpg"/></a>
+  <p class="caption">Took this shot during my walk on the beach (Amelia Island).</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/flower.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/flower.jpg"/></a>
+  <p class="caption">Small flower growing out of our backyard fence.</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/violet_flower.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/violet_flower.jpg"/></a>
+  <p class="caption">Blooming flowers in our garden.</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/railroad_crossing.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/railroad_crossing.jpg"/></a>
+  <p class="caption">Railroad crossing sign outside Cedar Park, TX.</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>
+<div class="post-image">
+  <a href="/images/posts/sonyrx1/sparky.jpg" data-imagelightbox="b"><img src="/images/posts/sonyrx1/sparky.jpg"/></a>
+  <p class="caption">Took this shot of my Jack Russell (Sparky) out on our patio.</p>
+  <span aria-hidden="true" class="camera-icon" data-std-icon="&#x1F4F7;"></span>
+  <span class="camera social-desc">Sony RX1</span>
+</div>

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Movie App Mockup 
+blurb: Another design exercise. This is my attempt to visualize a movie player app for the web.
+preview-image: /images/posts/movie_app/movie_app_showcase_opt.jpg
+image-title: Movie App Screen
+---
+
+This is another short blog post on some more design experimentation.  I created a simple layout for a movie web application that is very similar to [Vdio](https://www.vdio.com) and [Hulu](http://www.hulu.com).  I wanted to try to create a simple drawer for enclosing all the movie details.  If you selected a movie that interested you, instead of being taken to a standalone page, a drawer will pop out with all of the movie's meta information. De-selecting the video will cause the drawer to collapse to a hidden state. The pop out drawer will include an image of a movie scene at the top.  The title of the movie with the option of allowing you to rate it will be directly below it.  There is a single call to action button to simply start watching the movie.  The Watch button itself will need to be defined more clearly.  Does the Watch button take you to a new screen?  Perhaps display a modal dialog with more actions (i.e. rent or buy)?  Directly below will be the description of the movie and other related information such as the director and cast.  A simple video player (full-bleed) for previewing the movie will be anchored at the bottom. I wanted the movie player controls to be limited. There are no fast-forward or fast-backward buttons.  Only a play and pause button is displayed (selecting play will show the pause button and vice versa). The user will still have the ability to fast forward or scrub through the movie playback with the time elapse pop over.
+
+Below is an image of an another mockup of how the details page would be setup if the pop out drawer proved to be too restricted. 
+
+<div class="post-image">
+   <a href="/images/posts/movie_app/Movie_Details_opt.jpg" data-imagelightbox="b"><img src="/images/posts/movie_app/Movie_Details_opt.jpg"/></a>
+  <p class="caption">Movie App Details -- Visualizing how the details page would be layed out.</p>
+</div>
+
+This is a more traditional approach to a details page describing the contents of a movie. You have a large image of the movie itself with all the meta information below.  Two call to action button underneath the official movie poster. Then a photo gallery of the movie to round out the layout. Nothing fancy.  Just a simple layout of information that the user would care about.
+
