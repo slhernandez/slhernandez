@@ -1,0 +1,11 @@
+// System font.  The default.
+$system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $system;
+}
