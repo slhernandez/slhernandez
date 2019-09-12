@@ -1,0 +1,32 @@
+header {
+  background: #FFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0;
+  border-bottom: 1px solid #EDEFF0;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 2em;
+}
+
+.header-menu li {
+  font-size: 12px;
+  margin-left: 0.5em;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 2em;
+}
