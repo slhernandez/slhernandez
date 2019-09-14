@@ -4,6 +4,7 @@ title: Designing a Mobile Calendar
 blurb: I recently designed a mobile calendar and I wanted to discuss my thought process for my final design.
 preview-image: /images/grid/mobile_calendar_grid.png
 image-title: Designing a mobile calendar
+categories: coding, design
 ---
 
 Recently, I created a calendar component to a mobile app that I was working on. The purpose of the calendar is to allow users propose dates for meetings or events. The calendar didn’t have to remember previous dates or act as a traditional calendar like iCal or Fantastical.  All the calendar has to do is provide users a simple way of selecting a date and time to propose for a meeting or event.  That proposal is then forwarded to the main web server where it will be displayed on the main web application.

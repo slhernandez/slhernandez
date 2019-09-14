@@ -4,6 +4,7 @@ title: WikiBand Mobile App - Design Concept
 blurb: A small discussion on some early design concepts for a web app that I am working on as a side project. 
 preview-image: /images/posts/WikiBand/wikiband_homescreen.jpg
 image-title: WikiBand Homescreen 
+categories: design
 ---
 
 I am currently working on a side project that focuses on music.  More specifically, an app that delivers [Wikipedia](https://www.wikipedia.org/) entries that are specific to musicians, bands and song-writers.  Before diving into code and figuring out which tools and frameworks will be utilized to build this mobile app, I spent the past week figuring out what the overall design will be like.

@@ -4,6 +4,7 @@ title: A tale of two views.
 blurb: There are always two sides of the story to tell when it comes to designing web applications.  A story for the open web and a story for mobile apps.   
 preview-image: /images/grid/tale_two_views_grid.png
 image-title: A Tale of two tales
+categories: coding 
 ---
 
 When designing a web app, either for desktop or mobile, you have to think about the mobile devices and desktop browsers that will display them.  Do you build separate web applications to address both mobile and desktop?  Or rely on responsive web design to transition your desktop interface into a mobile solution to fit all mobile devices?  

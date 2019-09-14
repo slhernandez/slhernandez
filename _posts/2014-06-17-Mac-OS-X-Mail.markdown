@@ -2,7 +2,7 @@
 layout: post
 title: Mail App Concept
 blurb: I wanted to re-imagine the default Mac OS X Mail App based on Bohemian Coding's Fonts. 
-preview-image: /images/posts/emailClient/mail_composer.png
+preview-image: /images/grid/email_client_grid.png
 image-title: Concept of Mac OS X Mail App 
 ---
 

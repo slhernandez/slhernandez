@@ -4,6 +4,7 @@ title: Designing with Grids on iOS
 blurb: Updated progress on my iOS app. I discuss my experience with UICollectionViews and options you have at your disposal for basic grid options.
 preview-image: /images/grid/grids_on_ios.png
 image-title: Transforming Designs
+categories: coding
 ---
 
 What do you use to implement a grid in iOS?  Simple answer.  UICollectionViews.  [Others](http://nshipster.com/uicollectionview/) have called UICollectionView "the new UITableView".  UICollectionViews have been around since 2012.  It was release with iOS6 and many developers rejoiced with it's introduction.  UICollectionViews allows developers to make any layout possibile.  Layouts can include multi-column grids, tiled layouts, circular layouts or cover flow layouts.  It's a very versitle collection of classes that can order a collection of data items.  

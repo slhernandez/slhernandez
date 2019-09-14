@@ -2,8 +2,9 @@
 layout: post
 title: Compact Email for Yosemite 
 blurb: Another take on a Yosemite OS X based mail client. 
-preview-image: /images/posts/compactMail/mail_1200_opt.jpg
-image-title: Compact Email for Yosemite OS X 
+preview-image: /images/grid/email_client_grid.png
+image-title: Compact Email for Yosemite OS X
+categories: design 
 ---
 
 I created this quick concept while reading Apple's [marketing material](http://www.apple.com/osx/preview/) on their upcoming OS X update, Yosemite. I am really excited about the new user experience that is packaged in Yosemite.  It looks like a substantial update to Apple's philosophy of UI and design experience.  While viewing the marketing images of the new OS, I decided to create a quick mockup of Mail.  I imagined how it would look as a compact list of message for quick consumption. A quick drawer will pop out whenever you select a message. 

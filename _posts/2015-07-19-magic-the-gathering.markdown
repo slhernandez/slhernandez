@@ -4,6 +4,7 @@ title: Design Exercise for Magic the Gathering
 blurb: Recently, I created several mockups for a friend related to Magic the Gathering.  Here are a few brief thoughts on the design and layout.
 preview-image: /images/grid/MtG_grid.png
 image-title: Screens for MTG Discovery
+categories: building, design
 ---
 
 The concept for this app design is specifically for iOS.  I use the iPhone as my primary phone.  So, my bias and heart is entrenched in the Apple mobile eco-system.  In fact, as a designer of mobile and open web apps, Apple design is very influential to my work. With that said, the Apple Music app was my inspiration for this design.  This turned out to be an interesting design exercise for a friend.  I wanted to share some thoughts as I pieced this layout together.  

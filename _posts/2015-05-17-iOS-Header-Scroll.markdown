@@ -4,6 +4,7 @@ title: Implementing a playful image bounce with expansion and blur.
 blurb: Twitter's iOS App has a nice pull down animation with the profile's header image.  I attempt to re-create it for WikiBand.
 preview-image: /images/grid/bounce_grid.png
 image-title: WikiBand Details Header View
+categories: coding 
 ---
 
 <span class="post-italics">Warning:</span>  This is not a step by step tutorial on how I integrated an image header expansion and blur effect.  Rather, it's how I took an existing solution written in Swift, and modified it to fit my personal needs.

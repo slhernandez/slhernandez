@@ -4,6 +4,7 @@ title: Transforming Designs to Real Pixels
 blurb: Some thoughts on how to transform one of my designs from a mockup into actual code using the iOS platform.  The focus for this particular case study is the Visual Format Language and NSAttributedString.
 preview-image: /images/grid/real_pixels_grid.png
 image-title: Transforming Designs
+categories: coding
 ---
 
 I created several mockups of a mobile iOS app called [WikiBand](http://slhernandez.com/wikiband/).  This idea has gone through several iterations during the past year.  In fact, it has changed drastically since it’s inception.  You can just look at the difference between the headline screen shot of this post and what can be discovered from my portfolio.  Anyway, I started to code the most recent designs of my mockups.  I thought it would be a nice idea to document the process on this website.

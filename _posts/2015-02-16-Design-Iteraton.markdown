@@ -3,7 +3,8 @@ layout: post
 title: Iterative Design 
 blurb: My thoughts on iterative design and the process required to achieve your vision.
 preview-image: /images/grid/iterative_design_grid.png
-image-title: Iterative Design 
+image-title: Iterative Design
+categories: design 
 ---
 
 Iterative design is critical to a product or vision that a creator has conceived.  In my opinion, design iteration can sometimes be about obsession, persistence, and the focus to keep things simple.  It's more of improving the small details to make technology become a more seamless extension of ourselves.  Designing software interfaces is still about making computers easier for humans to use.  That's why designers got into the game in the first place.  Many of the software products or applications I work on is never considered finished.  The user interface and the user experience is constantly being tweaked and modified to enhance the human experience.  

@@ -2,12 +2,13 @@
   text-align: center;
   h4 {
     font-size: 1.6em;
+    margin: 0;
   }
   p {
     font-size: 1.2em;
     font-weight: 300;
   }
-  margin: 1em 0;
+  margin: 3em 0 2em;
   padding: 1em 0 1.5em 0;
 }
 
@@ -17,7 +18,7 @@
   grid-template-columns: 1fr 1fr 1fr; 
   width: 100vmin;
   //height: calc(100vh - 4em);
-  grid-gap: 2em;
+  grid-gap: 5em;
   margin: 0 auto;
 }
 
@@ -25,7 +26,9 @@
   background: #FFFFFF;
   box-shadow: 4px 20px 28px 0 rgba(0,0,0,0.15), 0 20px 20px 0 rgba(0,0,0,0.05);
   border-radius: 5px;
+  position: relative;
   width: 353px;
+  height: 540px;
 }
 
 .post-img {
@@ -51,7 +54,21 @@
   }
 }
 
+.post-category {
+  font-size: 14px;
+  padding: 1em;
+  font-weight: 300;
+  border-top: 1px solid #EEE;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .load-more {
   padding: 2em 0;
   text-align: center;
+  font-size: 1.6em;
+  font-weight: 300;
 }

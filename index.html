@@ -20,7 +20,7 @@ layout: wrapper
         <p class="post-date">Published on {{ post.date | date: "%B %d, %Y" }}</p>
         <p class="post-blurb">{{ post.blurb }}</p>
       </div>
-      <div class="category-tags"></div>
+      <div class="post-category">{{post.categories}}</div>
     </div>    
   {% endfor %}
 </div>
