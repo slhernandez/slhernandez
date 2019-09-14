@@ -2,7 +2,7 @@
 layout: post
 title: Implementing a playful image bounce with expansion and blur.
 blurb: Twitter's iOS App has a nice pull down animation with the profile's header image.  I attempt to re-create it for WikiBand.
-preview-image: /images/posts/HeaderScroll/beyonce_crop.png
+preview-image: /images/grid/bounce_grid.png
 image-title: WikiBand Details Header View
 ---
 

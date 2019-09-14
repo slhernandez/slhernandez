@@ -2,7 +2,7 @@
 layout: post
 title: Design Exercise for Magic the Gathering
 blurb: Recently, I created several mockups for a friend related to Magic the Gathering.  Here are a few brief thoughts on the design and layout.
-preview-image: /images/posts/MTG/concept.jpg
+preview-image: /images/grid/MtG_grid.png
 image-title: Screens for MTG Discovery
 ---
 

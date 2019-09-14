@@ -2,7 +2,7 @@
 layout: post
 title: Designing a Mobile Calendar
 blurb: I recently designed a mobile calendar and I wanted to discuss my thought process for my final design.
-preview-image: /images/posts/mobileCalendar/FullCalendar_6.jpg
+preview-image: /images/grid/mobile_calendar_grid.png
 image-title: Designing a mobile calendar
 ---
 

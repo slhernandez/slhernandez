@@ -2,7 +2,7 @@
 layout: post
 title: Iterative Design 
 blurb: My thoughts on iterative design and the process required to achieve your vision.
-preview-image: /images/posts/designiteration/designiteration_1500.png
+preview-image: /images/grid/iterative_design_grid.png
 image-title: Iterative Design 
 ---
 

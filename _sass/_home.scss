@@ -23,7 +23,6 @@
 
 .post-card {
   background: #FFFFFF;
-  border: 1px solid #EDEFF0;
   box-shadow: 4px 20px 28px 0 rgba(0,0,0,0.15), 0 20px 20px 0 rgba(0,0,0,0.05);
   border-radius: 5px;
   width: 353px;
@@ -36,10 +35,19 @@
 }
 
 .post-info {
+  margin: 0.5em 3em 0.5em 1.5em;
   h4 {
     font-size: 2em; 
     font-weight: 300;
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.8em 0 0 0;
+  }
+  .post-blurb {
+    font-size: 1.4em;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .post-date {
+    font-size: 1.2em;
   }
 }
 

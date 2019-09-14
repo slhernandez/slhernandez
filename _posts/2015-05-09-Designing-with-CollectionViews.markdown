@@ -2,7 +2,7 @@
 layout: post
 title: Designing with Grids on iOS 
 blurb: Updated progress on my iOS app. I discuss my experience with UICollectionViews and options you have at your disposal for basic grid options.
-preview-image: /images/posts/CollectionViews/screen_4.png
+preview-image: /images/grid/grids_on_ios.png
 image-title: Transforming Designs
 ---
 

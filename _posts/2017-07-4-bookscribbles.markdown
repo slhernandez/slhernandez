@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Side Project - Bookscribbles
+title: Bookscribbles
 blurb: Design discussion on my side project called Bookscribbles.
-preview-image: /images/posts/bookscribbles/Snapshot_bs_4.png
+preview-image: /images/grid/bookscribbles_grid.png
 image-title: SideProject - Bookscribbles
 ---
 
