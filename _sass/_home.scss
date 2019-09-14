@@ -16,10 +16,12 @@
   display:  grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr; 
-  width: 100vmin;
+  //width: 100vmin;
   //height: calc(100vh - 4em);
   grid-gap: 5em;
   margin: 0 auto;
+  min-width: 75%;
+  max-width: 1024px;
 }
 
 .post-card {
