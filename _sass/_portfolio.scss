@@ -100,3 +100,27 @@
     }
   }
 }
+
+.portfolio-caption {
+  font-size: 2.4em;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: left;
+  margin-top: 4em;
+}
+
+.portfolio-four-grid {
+  display:  grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-gap: 4em;
+  margin: 0 auto;
+}
+
+.portfolio-snapshot {
+  border: 1px solid #979797;
+  width: 225px;
+  img {
+    width: 100%;
+  }
+}
