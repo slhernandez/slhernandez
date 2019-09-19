@@ -49,10 +49,19 @@
     border-width: 1px 0 1px 0;
     margin-top: 7em;
     padding: 1.5em 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
     H4 {
       font-size: 1.6em;
       font-weight: 900;
       margin: 0;
+    }
+    .details-icon {
+      font-size: 18px;
+      margin-right: 0.5em;
     }
   }
 }
@@ -93,10 +102,19 @@
     border-width: 1px 0 1px 0;
     margin-top: 7em;
     padding: 1.5em 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
     H4 {
       font-size: 1.6em;
       font-weight: 900;
       margin: 0;
+    }
+    .details-icon {
+      font-size: 18px;
+      margin-right: 0.5em;
     }
   }
 }
