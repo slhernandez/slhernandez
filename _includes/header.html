@@ -1,8 +1,10 @@
 <header>
   <H1 class="logo"><a href="{{ base.url }}/index.html">Steve Hernandez</a></H1>
   <ul class="header-menu">
-    <li><a href="{{ base.url }}/page/portfolio/">Portfolio</a></li>
-    <li><a href="{{ base.url }}/page/archive/">Archive</a></li>
-    <li><a href="{{ base.url }}/page/about/">About</a></li>
+    {% for item in site.data.samplelist.docs %}
+      <li class="{% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url }}">{{item.title}}</a>
+      </li>
+    {% endfor %}
   </ul>
 </header>

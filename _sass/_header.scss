@@ -23,6 +23,13 @@ header {
   margin-left: 2em;
 }
 
+.header-menu li.active {
+  a {
+    color: #A061AA;
+    font-weight: 600;
+  }
+}
+
 .logo {
   font-size: 2em;
   font-weight: 300;

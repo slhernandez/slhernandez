@@ -16,7 +16,10 @@ body {
 a {
   text-decoration: none;
   color: #555;
-  transition: all 400ms ease;
+}
+
+a:hover {
+  color: #A061AA;
 }
 
 ul {
