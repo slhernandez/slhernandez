@@ -1,0 +1,43 @@
+#footer {
+  clear: both;
+  @include clear();
+  border-top: 1px solid #EEE;
+  margin: 0 auto 20px auto;
+  padding-top: 20px;
+  max-width: 1050px;
+  width: 92%;
+}
+
+.copyright {
+  color: #666;
+  font-size: 1.2em;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  @include breakpoint(tabletportrait) {
+    float: left;
+    width: 30%;
+  }
+}
+
+.socialContainer {
+  padding-right: 40px;
+  text-align: center;
+  width: 100%;
+  @include breakpoint(tabletportrait) {
+    text-align: right;
+    float: left;
+    width: 70%;
+  }
+}
+
+.socialContainer ul li {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.socialContainer ul {
+  padding: 0;
+}

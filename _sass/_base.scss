@@ -30,3 +30,13 @@ h1 {
   padding: 0;
   margin: 0;
 }
+
+[data-social-icon]:before {
+  font-family: "SSSocialRegular";
+  content: attr(data-social-icon);
+  speak: none;
+}
+
+.icon-alone {
+  display: inline-block;
+}
