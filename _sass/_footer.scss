@@ -33,11 +33,14 @@
 }
 
 .socialContainer ul li {
-  font-size: 1.2em;
+  font-size: 1.6em;
   display: inline-block;
   margin-left: 30px;
 }
 
 .socialContainer ul {
   padding: 0;
+  .screen-reader-text {
+    display: none;
+  }
 }
