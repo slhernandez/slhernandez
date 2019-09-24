@@ -1,0 +1,17 @@
+.post-hero {
+  background: #171D25;
+  border-bottom: 1px solid #CCC;
+  padding-top: 4em;
+  width: 100%;
+  .post-hero-img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
+}
+
+.post-container {
+  max-width: 1050px;
+  width: 92%;
+  margin: 0 auto;
+}
