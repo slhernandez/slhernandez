@@ -3,9 +3,10 @@ layout: wrapper
 ---
 
 <div class="post-hero">
-  <img class="post-hero-img" src="/images/posts/bookscribbles/bookscribbles_hero_img.png" />
+  <img class="post-hero-img" src="{{page.hero-image}}" />
 </div>
 <div class="post-container">
-  <h1>{{page.title}}</h1>
+  <h1 class="post-title">{{page.title}}</h1>
+  <p class="post-author">by {{page.author}}</p>
   {{content}}
 </div>
