@@ -6,12 +6,13 @@
   .post-hero-img {
     display: block;
     margin: 0 auto;
+    max-width: 968px;
     width: 75%;
   }
 }
 
 .post-container {
-  max-width: 1050px;
+  max-width: 850px;
   width: 92%;
   margin: 0 auto;
   p {
@@ -30,4 +31,36 @@
 .post-title {
   font-size: 2.8em;
   padding: 1.5em 0 0 0;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #4A90E2;
+  padding: 0.8em 0.8em;
+  padding: 0.7em 0em 0.5em 0;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 3em;
+  &:hover {
+    color: white;
+  }
+}
+
+.post-single-col-img {
+  a {
+    display: block;
+  }
+
+  img { 
+    width: 100%;
+  }
+  .caption {
+    margin: 0;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+  }
 }
