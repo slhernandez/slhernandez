@@ -4,7 +4,7 @@ title: SideProject - Bookscribbles
 blurb: Design discussion on my side project called Bookscribbles.
 preview-image: /images/grid/bookscribbles_grid.png
 image-title: SideProject - Bookscribbles
-categories: building design
+categories: building, design
 author: Steve Hernandez
 hero-image: /images/posts/bookscribbles/bookscribbles_hero_img.png
 ---
