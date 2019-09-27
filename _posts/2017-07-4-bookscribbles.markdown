@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bookscribbles
+title: SideProject - Bookscribbles
 blurb: Design discussion on my side project called Bookscribbles.
 preview-image: /images/grid/bookscribbles_grid.png
 image-title: SideProject - Bookscribbles
@@ -15,12 +15,11 @@ Bookscribbles is a simple web app.  It keeps track of all the books you've read 
 
 Displaying the book details in this format is an experiment. Netflix was definitely an inspiration with their own click drawer interface.  The standard default for reviewing book details will be a separate page.  But this drawer will be an option if the user decides to hover their mouse pointer near the bottom of book cover.  Below is how the full details page will be displayed.
 
-<!--<div class="post-image border-image">
-  <a href="/images/posts/bookscribbles/full_details_bs.png" data-imagelightbox="b"><img src="/images/posts/bookscribbles/full_details_bs.png" title="Full page book details" alt="Full page book details"/></a>
-  <p class="caption">Full page layout for book details.</p>
-</div>-->
+{% include post_single_img.html post_image="/images/posts/bookscribbles/bs_image_2.png" title="Full page book details." caption="Full page layout for book details." %}
 
 The project details page will consists of two work areas for the user.  Both which can be considered as note taking actions.  Users can enter click the vocabulary builder and enter words they have learned.  Any passages or main topics that were important to the book can be entered within My Scribbles section.  The editing will use content editable and have a Medium like experience.    
+
+{% include post_single_img.html post_image="/images/posts/bookscribbles/bs_image_3.png" title="Add your book." caption="Add a book quickly." %}
 
 <!--<div class="post-image border-image">
   <a href="/images/posts/bookscribbles/snapshot_bs_5.png" data-imagelightbox="b"><img src="/images/posts/bookscribbles/snapshot_bs_5.png" title="Add your book" alt="Add your book"/></a>
