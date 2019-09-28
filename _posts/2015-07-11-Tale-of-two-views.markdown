@@ -4,7 +4,10 @@ title: A tale of two views.
 blurb: There are always two sides of the story to tell when it comes to designing web applications.  A story for the open web and a story for mobile apps.   
 preview-image: /images/grid/tale_two_views_grid.png
 image-title: A Tale of two tales
-categories: coding 
+categories: coding
+author: Steve Hernandez
+hero-image: /images/posts/calendar/Showcase_3100.png
+background-override: calendar
 ---
 
 When designing a web app, either for desktop or mobile, you have to think about the mobile devices and desktop browsers that will display them.  Do you build separate web applications to address both mobile and desktop?  Or rely on responsive web design to transition your desktop interface into a mobile solution to fit all mobile devices?  
@@ -16,7 +19,7 @@ Below is a video of my solution in action.  I typically use responsive web desig
 <div class="post-video-container">
   <span class="post-video-description">My responsive calendar app.</span>
   <video width="650" height="540" loop autoplay muted class="post-video">
-    <source src="/images/posts/TwoTales/schedule.webm" type="video/webm">
+    <source src="/images/posts/calendar/schedule.webm" type="video/webm">
   </video>
 </div>
 
@@ -24,17 +27,11 @@ There are pros and cons to this solution.  For instance, you have one single cod
 
 The downside for this approach is there are two distinct views.  Two HTML files that have to be maintained because both the desktop and mobile views are drastically different.  You also have to account the amount of CSS styles devoted to the solution.  I use the CSS preprocessor Less to organize my styles.  That means their are two files devoted to my style markup for desktop and mobile.  All of a sudden you need to maintain two different UI views for the life of your application.  But this solution is a little bit better than having a native solution written for iOS or Android.  The development costs are much cheaper.  
 
-<div class="post-image slight-shadow">
-  <a href="/images/posts/TwoTales/Desktop_schedule.png" data-imagelightbox="b"><img src="/images/posts/TwoTales/Desktop_schedule.png" title="Desktop View" alt="Desktop view of my calendar design."/></a>
-  <p class="caption">Desktop view of my calendar design.</p>
-</div>
+{% include post_single_img.html post_image="/images/posts/calendar/Desktop_schedule.png" title="Desktop View" caption="Desktop view of calendar." %}
 
 The above image shows how dramatically different the desktop view of my design is compared to its mobile counter part.  It's more feature rich and complex.  It supports dragging for selecting time slots (i.e. hours for availability).  A mini-calendar has been integrated to facilitate day, week and month navigation. Color indicators have been included to inform the user that content exists for viewing.  A feature that is considered to be valuable to my stake holders is list of council members.  You will notice a list of names located on the left-hand side.  There are many visual indicators that give information to the user on it's current status.  Most of these items need to be represented for mobile.
 
-<div class="post-image reduce-half slight-shadow">
-  <a href="/images/posts/TwoTales/mobile_schedule.png" data-imagelightbox="b"><img src="/images/posts/TwoTales/mobile_schedule.png" title="Mobile View" alt="mobile view of my calendar design."/></a>
-  <p class="caption">Mobile view of my calendar design.</p>
-</div>
+{% include post_single_img.html post_image="/images/posts/calendar/mobile_schedule.png" title="Mobile View" caption="Mobile view of my calendar design." post_img_sm="img--small" %}
 
 I am not going to discuss why I have selected the mobile layout shown in the image above.  It's only a compact version of the desktop layout.  What I want to discuss is the advantages and disadvantages of selecting this particular solution to address mobile options in regards to your web application.  
 

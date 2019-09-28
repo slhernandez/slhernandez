@@ -9,6 +9,10 @@
     max-width: 968px;
     width: 75%;
   }
+  &.calendar {
+    background: rgb(21,52,93);
+    background: radial-gradient(circle, rgba(21,52,93,1) 0%, rgba(27,67,121,1) 20%, rgba(36,90,163,1) 100%);
+  }
 }
 
 .post-container {
@@ -54,14 +58,22 @@
   }
 
   img { 
+    box-shadow: rgba(198, 208, 235, 0.5) 0px 10px 20px;
     width: 100%;
   }
+
   .caption {
     margin: 0;
     font-size: 1.5em;
     font-style: italic;
     font-weight: 500;
     text-align: center;
+  }
+
+  .img--small {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
   }
 }
 
