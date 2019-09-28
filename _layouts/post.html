@@ -2,9 +2,13 @@
 layout: wrapper
 ---
 
-<div class="post-hero {{page.background-override}}">
-  <img class="post-hero-img" src="{{page.hero-image}}" />
-</div>
+{% if page.background_image %}
+  <div class="post-hero-background {{page.image-name}}"></div>
+{% else %}
+  <div class="post-hero {{page.background-override}}">
+    <img class="post-hero-img" src="{{page.hero-image}}" />
+  </div>
+{% endif %}
 <div class="post-container">
   <h1 class="post-title">{{page.title}}</h1>
   <p class="post-author">by {{page.author}}</p>

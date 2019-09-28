@@ -7,6 +7,7 @@ image-title: Screens for MTG Discovery
 categories: building, design
 author: Steve Hernandez
 hero-image: /images/posts/magic/concept.png
+background_image: false
 ---
 
 The concept for this app design is specifically for iOS.  I use the iPhone as my primary phone.  So, my bias and heart is entrenched in the Apple mobile eco-system.  In fact, as a designer of mobile and open web apps, Apple design is very influential to my work. With that said, the Apple Music app was my inspiration for this design.  This turned out to be an interesting design exercise for a friend.  I wanted to share some thoughts as I pieced this layout together.  
