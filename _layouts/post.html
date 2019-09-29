@@ -14,3 +14,35 @@ layout: wrapper
   <p class="post-author">by {{page.author}}</p>
   {{content}}
 </div>
+<div class="paginator-container">
+  <div class="paginator">
+    {% if page.previous %}
+    <div class="previous-container">
+      <p class="p-title"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+      <p class="p-blurb">{{ page.previous.blurb }}</p>
+
+      <a class="paginator-links" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+        <div class="paginator-links-info">
+          <div class="next-icon" data-icon="b"></div>
+          <H4>Previous Post</H4>
+        </div>
+      </a>
+
+    </div>
+    {% endif %}
+    {% if page.next %}
+      <div class="next-container">
+        <p class="p-title"><a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
+        <p class="p-blurb">{{ page.next.blurb }}</p>
+
+        <a class="paginator-links" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+          <div class="paginator-links-info">
+            <H4>Next Post</H4>
+            <div class="next-icon" data-icon="a"></div>
+          </div>
+        </a>
+
+      </div>
+    {% endif %}
+  </div>
+</div>

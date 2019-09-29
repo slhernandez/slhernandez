@@ -25,3 +25,4 @@ The project details page will consists of two work areas for the user.  Both whi
 The main component of the app is adding a book.  It's a simple modal dialog with input fields for book title, book author, and book description.  The book title will have an autocomplete component that will utilize Google books API to autocomplete the book author and book cover.  The only input field that will be required is the book title.  Bookscribbles can act as list of books you have recently.  Then expand to something more with user generated notes.  
 
 <a class="btn" href="http://bookscribbles.com">Visit Bookscribbles.com</a>
+

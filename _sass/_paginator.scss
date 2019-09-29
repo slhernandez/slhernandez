@@ -1,0 +1,60 @@
+.paginator-container {
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  border-color: #CCC;
+  margin: 5em 0 1em 0;
+}
+
+.paginator {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 850px;
+  gap: 30px 30px;
+  padding: 50px 30px;
+  margin: 0px auto;
+}
+
+.p-title {
+  font-size: 2.0em;
+  font-weight: 600;
+}
+
+.p-blurb {
+  font-weight: 300;
+  font-size: 1.6em;
+  line-height: 1.6;
+  min-height: 80px;
+}
+
+.next-container {
+  text-align: right;
+  .paginator-links-info {
+    justify-content: flex-end;
+    .next-icon {
+      font-size: 1.6em;
+      margin-right: 0;
+      margin-left: 0.5em;
+    }
+  }
+}
+
+.paginator-links-info {
+  border-style: solid;
+  border-color: #CCC;
+  border-width: 1px 0 1px 0;
+  padding: 1.5em 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  justify-content: start;
+  align-items: center;
+  h4 {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0;
+  }
+  .next-icon {
+    font-size: 1.6em;
+    margin-right: 0.5em;
+  }
+}
