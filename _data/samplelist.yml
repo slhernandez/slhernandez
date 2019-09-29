@@ -1,6 +1,9 @@
 docs_list_title: Navigation
 docs:
 
+- title: Home 
+  url: / 
+
 - title: Portfolio
   url: /page/portfolio.html
 
