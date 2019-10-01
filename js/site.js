@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
   console.log('page has loaded...');
   /*
@@ -17,6 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log('loadBtn', loadBtn);
     const url = loadBtn.querySelector('a').getAttribute('href');
     console.log('url...', url);
+    axios.get(url)
+      .then(function (response) {
+        console.log('data...', response.data);
+        console.log('status...', response.status);
+      });
     /*$.get(moreBtn.find('a').attr('href'), function(data) {
       // Look for all articles
       var teasers = $(data).find('article');
