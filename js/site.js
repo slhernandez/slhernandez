@@ -20,8 +20,17 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log('url...', url);
     axios.get(url)
       .then(function (response) {
-        console.log('data...', response.data);
-        console.log('status...', response.status);
+        teasers = document.querySelectorAll('.post-card');
+        console.log('teasers ...', teasers);
+        // reomve the load more button.  It should not get in the way.
+        loadBtn.parentNode.removeChild(loadBtn);
+        const cardContainer = document.querySelector('.post-card-container');
+        console.log('cardContainer ...', cardContainer);
+        for (var teaser of teasers) {
+          console.log('teaser item ...', teaser);
+          cardContainer.appendChild(teaser);
+        }
+
       });
     /*$.get(moreBtn.find('a').attr('href'), function(data) {
       // Look for all articles
@@ -35,5 +44,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });*/
   }
 
+  /*
+  * Function to display each teaser in sequence. 
+  */
+  /*var teaserSequence = function (teaserItems) {
+    teaserItems.each(function (i) {
+      $(this).delay((i++) * 500).fadeTo(1000, 1);
+    });
+  }*/
+
+  //var $teasersToSequence = $('article');
+  //teaserSequence($teasersToSequence)
   bindLoadMore();
 });
