@@ -1,6 +1,5 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-  console.log('page has loaded...');
   /*
   * Function to rebind the load more button 
   */
@@ -13,47 +12,37 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  var appendTeasers = (loadBtn) => {
-    console.log('entered appendTeasers...');
-    console.log('loadBtn', loadBtn);
-    const url = loadBtn.querySelector('a').getAttribute('href');
-    console.log('url...', url);
-    axios.get(url)
-      .then(function (response) {
-        teasers = document.querySelectorAll('.post-card');
-        console.log('teasers ...', teasers);
-        // reomve the load more button.  It should not get in the way.
-        loadBtn.parentNode.removeChild(loadBtn);
-        const cardContainer = document.querySelector('.post-card-container');
-        console.log('cardContainer ...', cardContainer);
-        for (var teaser of teasers) {
-          console.log('teaser item ...', teaser);
-          cardContainer.appendChild(teaser);
-        }
-
-      });
-    /*$.get(moreBtn.find('a').attr('href'), function(data) {
-      // Look for all articles
-      var teasers = $(data).find('article');
-      var $load_more = $(data).find('.load-more');
-      $('.load-more').remove();
-      $('.teaser').append(teasers);
-      teaserSequence(teasers);
-      $($load_more).insertAfter('.teaser');
-      bindLoadMore();
-    });*/
+  const parseHTML = (str) => {
+    return document.createRange().createContextualFragment(str);
   }
 
-  /*
-  * Function to display each teaser in sequence. 
-  */
-  /*var teaserSequence = function (teaserItems) {
-    teaserItems.each(function (i) {
-      $(this).delay((i++) * 500).fadeTo(1000, 1);
-    });
-  }*/
+  const insertAfter = (newNode, referenceNode) => {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  }
 
-  //var $teasersToSequence = $('article');
-  //teaserSequence($teasersToSequence)
+  var appendTeasers = (loadBtn) => {
+    const url = loadBtn.querySelector('a').getAttribute('href');
+    axios.get(url)
+      .then(function (response) {
+        const htmlStr = response.data;
+        const responseDom = parseHTML(response.data);
+        const teasers = responseDom.querySelectorAll('.post-card');
+
+        // find the updated load-button from page reload.
+        const loadMoreBtn = responseDom.querySelector('.load-more');
+
+        // reomve the load more button.  It should not get in the way.
+        loadBtn.parentNode.removeChild(loadBtn);
+
+        const cardContainer = document.querySelector('.post-card-container');
+        for (var teaser of teasers) {
+          cardContainer.append(teaser);
+        }
+
+        // add the load more button back.
+        const updateLoadBtn = document.querySelector(".load-more");
+        insertAfter(loadMoreBtn, cardContainer);
+      });
+  }
   bindLoadMore();
 });
