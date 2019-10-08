@@ -2,7 +2,7 @@
 layout: post
 title: My Design Process 
 blurb: Some quick thoughts on my design process.  How do I take an idea in my head to something that's real and usable.
-preview-image: /images/posts/design-process/DesignProcess.jpg
+preview-image: /images/grid/my_design_process.png
 image-title: Sketch first then convert to real pixels
 ---
 

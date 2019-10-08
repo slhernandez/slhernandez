@@ -2,7 +2,7 @@
 layout: post
 title: Movie App Mockup 
 blurb: Another design exercise. This is my attempt to visualize a movie player app for the web.
-preview-image: /images/posts/movie_app/movie_app_showcase_opt.jpg
+preview-image: /images/grid/movie_app_mockup.png
 image-title: Movie App Screen
 ---
 

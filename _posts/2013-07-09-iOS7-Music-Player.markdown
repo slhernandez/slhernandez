@@ -2,7 +2,7 @@
 layout: post
 title: iOS 7 Music Player
 blurb: I created a mockup of an iOS Music Player App based on Rdio's desktop music player. It's just a small exercise of taking an existing UI concept that was designed for the desktop and integrating it into a mobile app.
-preview-image: /images/posts/music_player/iOS_7_display.png
+preview-image: /images/grid/ios_music_player.png
 image-title: Mockup of iOS 7 themed music player
 ---
 
