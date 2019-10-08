@@ -2,7 +2,7 @@
 layout: post
 title: iOS Mail Concept 
 blurb: This is my own personal take on how an iOS Mail Client App should look like.
-preview-image: /images/posts/mail_app/iOSMail_Closeup.jpg
+preview-image: /images/grid/ios_mail_concept.png
 image-title: iOS Mail Concept
 ---
 

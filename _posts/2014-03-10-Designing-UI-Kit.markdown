@@ -2,7 +2,7 @@
 layout: post
 title: Designing UI Controls 
 blurb: Some initial thoughts of some obstacles and design decisions when creating a new set of web UI controls. 
-preview-image: /images/posts/DesignUIControls/Login_Sample_opt.png
+preview-image: /images/grid/designing_ui_controls.png
 image-title: Designing UI Controls 
 ---
 

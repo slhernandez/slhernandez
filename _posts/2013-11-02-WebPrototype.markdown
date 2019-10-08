@@ -2,7 +2,7 @@
 layout: post
 title: Boilerplate for prototyping websites 
 blurb: Simple tool for prototyping websites or fleshing out new ideas with some cutting edge front-end tools.
-preview-image: /images/posts/webprototype/WebPrototype.jpg
+preview-image: /images/grid/boilerplate.png
 image-title: Boilerplate Web Application
 ---
 

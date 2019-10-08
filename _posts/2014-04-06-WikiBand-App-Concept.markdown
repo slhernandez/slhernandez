@@ -2,7 +2,7 @@
 layout: post
 title: WikiBand Mobile App - Design Concept
 blurb: A small discussion on some early design concepts for a web app that I am working on as a side project. 
-preview-image: /images/posts/WikiBand/wikiband_homescreen.jpg
+preview-image: /images/grid/wikiband_mobile_app.png
 image-title: WikiBand Homescreen 
 categories: design
 ---

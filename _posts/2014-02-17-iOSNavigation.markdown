@@ -2,7 +2,7 @@
 layout: post
 title: iOS Navigation
 blurb: I explore different design options for popular iOS Navigation Patterns. 
-preview-image: /images/posts/iOS_Navigation/EventPlanner_Menu.png
+preview-image: /images/grid/ios_navigation.png
 image-title: Event Planner Navigation
 ---
 
