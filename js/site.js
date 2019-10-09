@@ -5,11 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
   */
   const bindLoadMore = () => {
     const loadBtn = document.querySelector(".load-more");
-    loadBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      appendTeasers(loadBtn);
-    });
+    if (loadBtn) {
+      loadBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        appendTeasers(loadBtn);
+      });
+    }
   }
 
   const parseHTML = (str) => {
@@ -41,7 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // add the load more button back.
         const updateLoadBtn = document.querySelector(".load-more");
-        insertAfter(loadMoreBtn, cardContainer);
+        if (updateLoadBtn) {
+          insertAfter(loadMoreBtn, cardContainer);
+        }
       });
   }
   bindLoadMore();
