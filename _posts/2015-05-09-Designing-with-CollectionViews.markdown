@@ -5,6 +5,10 @@ blurb: Updated progress on my iOS app. I discuss my experience with UICollection
 preview-image: /images/grid/grids_on_ios.png
 image-title: Transforming Designs
 categories: coding
+author: Steve Hernandez
+hero-image: /images/posts/collectionviews/screen_4.png
+background_image: false
+background-override: collectionview
 ---
 
 What do you use to implement a grid in iOS?  Simple answer.  UICollectionViews.  [Others](http://nshipster.com/uicollectionview/) have called UICollectionView "the new UITableView".  UICollectionViews have been around since 2012.  It was release with iOS6 and many developers rejoiced with it's introduction.  UICollectionViews allows developers to make any layout possibile.  Layouts can include multi-column grids, tiled layouts, circular layouts or cover flow layouts.  It's a very versitle collection of classes that can order a collection of data items.  
@@ -15,20 +19,11 @@ I don't intend to provide a step by step tutorial on how to setup a multi-column
 
 When you launch WikiBand for the first time, the app will collect a list of albums currently purchased from a user's iTunes library.  It ultimately came down to two simple layouts. Should I use a three column layout or a more readable two column layout.  Below are two versions of WikiBand that use the two column approach.  One with white borders for each tile.  And a second version with no borders.
 
-<div class="col2-img-container">
-  <div class="col2-img">
-    <a href="/images/posts/CollectionViews/two_column_grid_800.png" data-imagelightbox="b"><img src="/images/posts/CollectionViews/two_column_grid.png" title="Two Column View." alt="WikiBand Two Column Layout."/></a>
-    <p class="caption">minimumInteritemSpacing set to 1.0.</p>
-  </div>
-  <div class="col2-img">
-    <a href="/images/posts/CollectionViews/borderless_two_column.png" data-imagelightbox="b"><img src="/images/posts/CollectionViews/borderless_two_column.png" style="width: 91.5%;" title="WikiBand Two Column Layout." alt="WikiBand Two Column Layout"/></a>
-    <p class="caption">minimumInteritemSpacing set to 0.0.</p>
-  </div>
-</div>
+{% include post_double_img.html post_image_1="/images/posts/collectionviews/two_column_grid_800.png" post_image_2="/images/posts/collectionviews/borderless_two_column.png" title="" caption="" %}
 
 Constructing both the three column and two column layout is relatively straight forward.  To implement a simple grid layout with iOS, you create a new custom class of type ```UICollectionView```.  You can either create your collection view with Interface Builder or programatically in code.  Since I opted with the simplest grid solution, just writing the code made sense to me.  
 
-#### UICollectionViewFlowLayout
+## UICollectionViewFlowLayout
 
 FlowLayout is the power of flexiblity behind Collection Views.  Some view layouts as the CSS to your HTML of collection cells.  This abstract base class can position a cell view in a single row, column or grid.  You will notice on the screen shots of WikiBand, each cell has an even height and width.  With FlowLayout, you can set the default size of each cell or use a delegate method to set the width and height. 
 
@@ -42,7 +37,7 @@ In order to manipulate the spacing for each cell, instantiate a ```UICollectionV
 
 Once you set the FlowLayout methods (i.e. itemSize, minimumInteritemSpacing, minimumLineSpacing), the UICollectionViewFlowLayout object can be sent to ```initWithCollectionViewLayout```.  
 
-#### UICollectionViewCell
+## UICollectionViewCell
 
 The last piece to the grid puzzle is ```UICollectionViewCell```.  A cell contains the data or content.  For WikiBand, that includes an artist image and artist name. It's very straight forward to create a customized ViewCell.  Just subclass ```UICollectionViewCell``` and within ```initWithFrame``` set your image view and label.  You will notices that the artist name is set at the center of the cell.  I took advantage of UILabel's ```NSTextAlignmentCenter``` and ```adjustsFontSizeToFitWidth``` make sure that no matter the size of the artist name, it will always fit in one single line without word wrapping.  Below is a gist of WikiBand's source code to demonstrate how the layout was setup.
 
@@ -50,6 +45,6 @@ The last piece to the grid puzzle is ```UICollectionViewCell```.  A cell contain
 
 With the ViewCell, it is important remember to add your content as subviews to the ```contentView``` property.  Don't apply subviews to the cell itself.
 
-#### Project Status
+## Project Status
 
 WikiBand is far from complete.  It is an on-going project that I work on during my spare time.  It is a hobby project that I hope to have complete by the end of the summer. For now, I'll just update this blog with some interesting tidbits on the technology that is used to build the app. 
