@@ -6,7 +6,7 @@ layout: wrapper
   <div class="post-hero-background {{page.image-name}}"></div>
 {% else %}
   <div class="post-hero {{page.background-override}}">
-    <img class="post-hero-img" src="{{page.hero-image}}" />
+    <img class="post-hero-img {{page.background-override}}" src="{{page.hero-image}}" />
   </div>
 {% endif %}
 <div class="post-container">

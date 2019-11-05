@@ -8,6 +8,10 @@
     margin: 0 auto;
     max-width: 968px;
     width: 75%;
+    &.transform {
+      border-radius: 5px;
+      box-shadow: 10px 0px 10px rgba(0,0,0,0.4);
+    }
   }
   &.calendar {
     background: rgb(21,52,93);
