@@ -27,10 +27,15 @@
     background: rgba(51,51,51,1.0);
   }
   &.mobilecalendar {
-    //background: rgba(227,227,227, 1.0);
     padding-top: 0;
   }
   &.compactemail {
+    padding-top: 0;
+  }
+  &.macosxemail {
+    background: #EEE;
+  }
+  &.wikiband {
     padding-top: 0;
   }
 }
@@ -74,6 +79,12 @@
   margin-top: 3em;
   &:hover {
     color: white;
+  }
+}
+
+.post-single-col-img.small {
+  img {
+    width: 25%;
   }
 }
 
