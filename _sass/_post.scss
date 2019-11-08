@@ -26,16 +26,10 @@
   &.designiteration {
     background: rgba(51,51,51,1.0);
   }
-  &.mobilecalendar {
-    padding-top: 0;
-  }
-  &.compactemail {
-    padding-top: 0;
-  }
   &.macosxemail {
     background: #EEE;
   }
-  &.wikiband {
+  &.wikiband, &.uicontrols, &.companctemail, &.mobilecalendar {
     padding-top: 0;
   }
 }
