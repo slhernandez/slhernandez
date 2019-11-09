@@ -4,6 +4,11 @@ title: Boilerplate for prototyping websites
 blurb: Simple tool for prototyping websites or fleshing out new ideas with some cutting edge front-end tools.
 preview-image: /images/grid/boilerplate.png
 image-title: Boilerplate Web Application
+categories: code 
+author: Steve Hernandez
+hero-image: /images/posts/prototype/WebPrototypeDesktopH.png
+background_image: false
+background-override: prototype
 ---
 
 I just recently put together a boilerplate web application that utilizes the [Express web framework](http://expressjs.com) via [node.js](http://nodejs.org).  I have been using this boilerplate to jumpstart my own web projects.  Whenever I need to create a quick prototype or scratch an itch about an idea, I start coding within this template.  You can find the project on my [github](http://github.com/slhernandez) account.  I named the project [WebPrototype] (https://github.com/slhernandez/WebPrototype). 
