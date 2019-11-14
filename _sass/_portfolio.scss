@@ -79,7 +79,7 @@
     align-items: center;
     H4 {
       font-size: 1.6em;
-      font-weight: 900;
+      font-weight: 700;
       margin: 0;
     }
     .details-icon {
@@ -137,7 +137,7 @@
     align-items: center;
     H4 {
       font-size: 1.6em;
-      font-weight: 900;
+      font-weight: 700;
       margin: 0;
     }
     .details-icon {
@@ -167,5 +167,30 @@
   border: 1px solid #CCC;
   img {
     width: 100%;
+  }
+}
+
+/* -------- */
+/* Details  */ 
+/* -------- */ 
+
+.portfolio-details-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 1180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  flex-direction: column;
+  h2 {
+    font-size: 4em;
+    font-weight: 600;
+    margin: 0;
+  }
+  P {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.7;
   }
 }
