@@ -27,6 +27,9 @@ layout: wrapper
           <H4>Previous Post</H4>
         </div>
       </a>
+      <a class="paginator-mobile" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+        <H4>Previous Post</H4>
+      </a>
 
     </div>
     {% endif %}
@@ -40,6 +43,10 @@ layout: wrapper
             <H4>Next Post</H4>
             <div class="next-icon" data-icon="a"></div>
           </div>
+        </a>
+
+        <a class="paginator-mobile" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
+          <H4>Next Post</H4>
         </a>
 
       </div>

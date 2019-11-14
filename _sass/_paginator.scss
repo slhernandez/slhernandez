@@ -5,6 +5,17 @@
   margin: 5em 0 1em 0;
 }
 
+.paginator-mobile {
+  display: none;
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  @media only screen and (max-width: 600px) {
+    display:block;
+  }
+}
+
 .paginator {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -12,6 +23,13 @@
   gap: 30px 30px;
   padding: 50px 30px;
   margin: 0px auto;
+}
+
+.p-title, .p-blurb, .paginator-links {
+  display: block;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .p-title {

@@ -8,6 +8,9 @@
     margin: 0 auto;
     max-width: 968px;
     width: 75%;
+    @media only screen and (max-width: 600px) {
+      width: 95%;
+    }
     &.transform {
       border-radius: 5px;
       box-shadow: 10px 0px 10px rgba(0,0,0,0.4);
@@ -37,6 +40,9 @@
   }
   &.wikiband, &.uicontrols, &.companctemail, &.mobilecalendar, &.mailapp {
     padding-top: 0;
+  }
+  @media only screen and (max-width: 600px) {
+    padding-top: 14em;
   }
 }
 .post-hero-background.bounce {
@@ -97,6 +103,9 @@
   img { 
     box-shadow: rgba(198, 208, 235, 0.5) 0px 10px 20px;
     width: 75%;
+    @media only screen and (max-width: 600px) {
+      width: 95%;
+    }
   }
 
   .caption {
