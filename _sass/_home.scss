@@ -11,6 +11,9 @@
   }
   margin: 3em 0 2em;
   padding: 1em 0 1.5em 0;
+  @media only screen and (max-width: 400px) {
+    padding-top: 12em;
+  }
 }
 
 .container--grid {

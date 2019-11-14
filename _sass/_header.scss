@@ -7,6 +7,16 @@ header {
   justify-content: space-between;
   padding: 2em 0;
   border-bottom: 1px solid #EDEFF0;
+  @media only screen and (max-width: 400px) {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .9);
+    backdrop-filter: blur(20px);
+  }
 }
 
 .header-menu {
@@ -16,6 +26,9 @@ header {
   align-items: center;
   justify-content: space-evenly;
   margin-right: 4em;
+  @media only screen and (max-width: 400px) {
+    padding: 0;
+  }
 }
 
 .header-menu li {
@@ -36,4 +49,9 @@ header {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-left: 2em;
+  @media only screen and (max-width: 400px) {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
