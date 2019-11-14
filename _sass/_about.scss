@@ -7,6 +7,9 @@
   padding: 10em 0 5em 0;
   width: 92%;
   margin: 0 auto;
+  @media only screen and (max-width: 769px) {
+    flex-direction: column;
+  }
 }
 
 .about-copy-container {
@@ -14,10 +17,16 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .about-info {
   width: 70%;
+  @media only screen and (max-width: 769px) {
+    width: 100%;
+  }
 }
 
 .about-contact-info {
@@ -26,6 +35,9 @@
   img {
     width: 100%;
     border-radius: 5px;
+  }
+  @media only screen and (max-width: 769px) {
+    width: 100%;
   }
 }
 
@@ -71,6 +83,6 @@
 .about-copy-paragraph_1, 
 .about-copy-paragraph_2 {
   font-size: 1.5em;
-  line-height: 1.6;
+  line-height: 1.8;
   font-weight: 300;
 }
