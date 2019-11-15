@@ -118,6 +118,12 @@
       padding: 2em 0;
     }
   }
+  &.etop-bottom-spacing {
+    padding: 0;
+    @include breakpoint(mobilelandscape) {
+      padding: 6em 0;
+    }
+  }
   .display-image {
     position: relative;
     border-color: #EEE;
