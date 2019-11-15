@@ -1,0 +1,249 @@
+.display-container {
+  background: #FFF;
+  margin-bottom: 100px;
+  width: 100%;
+  @include clear();
+  .display-grid {
+    margin: 0;
+    border-width: 0 1px 1px 1px;
+    border-color: #EEE;
+    border-style: solid;
+    .col-1-2 {
+      width: 100%;
+      @include breakpoint(tabletportrait) {
+        width: 50%;
+      }
+    }
+  }
+}
+
+.display-mobile {
+  display: block;
+  @include breakpoint(tabletportrait) {
+    display: none;
+  }
+}
+
+.display-desktop {
+  display: none;
+  @include breakpoint(tabletportrait) {
+    display: block;
+  }
+}
+
+.display-hero {
+  width: 100%;
+  img {
+    max-width: 100%;
+  }
+  &.reduce-width {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.display-heading {
+  background: #FFF;
+  border: 1px solid #EEE;
+  margin-top: -4px;
+  h1 {
+    color: #454545;
+    font-size: 1.6em;
+    font-weight: 200;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+    @include breakpoint(mobilelandscape) {
+      font-size: 3em;
+    }
+  }
+}
+
+.display-row {
+  height: auto;
+  padding: 0;
+  margin: 0;
+  img {
+    max-width: 65%;
+  }
+  .display-cpy-container {
+    padding: 3% 15% 3% 10%;
+    &.apply-height {
+      height: 495px;
+    }
+    &.top-padding {
+      padding-top: 0;
+      @include breakpoint(mobilelandscape) {
+        padding-top: 15%;
+      }
+    }
+    .display-title {
+      font-size: 1.2em;
+      font-weight: 500;
+      &.display-title--bold {
+        font-weight: 800;
+      }
+      &.display-title--light {
+        font-weight: 300;
+        font-size: 1.8em;
+      }
+    }
+    .display-copy {
+      font-weight: 300;
+      font-size: 1em;
+      color: #47525d;
+      line-height: 1.7;
+      &.display-copy--light {
+        font-size: 1.4em;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.display-grid {
+  position: relative;
+  &.top-bottom-spacing {
+    padding: 0;
+    @include breakpoint(mobilelandscape) {
+      padding: 2em 0;
+    }
+  }
+  .display-image {
+    position: relative;
+    border-color: #EEE;
+    border-style: solid;
+    border-width: 0;
+    text-align: center;
+    max-width: 100%;
+    @include breakpoint(tabletportrait) {
+      border-width: 0 0 0 1px;
+      //height: 495px;
+      .listing-img {
+        max-width: 100%;
+        @include breakpoint(mobilelandscape) {
+          max-width: 80%;
+        }
+        &.img-90 {
+          max-width: 90%;
+        }
+        &.light-border {
+          border: 1px solid #EEE;
+        }
+      }
+      &.no-borders {
+        border-width: 0;
+      }
+    }
+  }
+  .d-copy {
+    border-width: 0 1px 0 0;
+    border-color: #EEE;
+    border-style: solid;
+    font-size: 1.4em; 
+    @include breakpoint(tabletportrait) {
+      border-width: 0;
+      font-size: 1.5em;
+    }
+    &.no-borders.no-borders {
+      border-width: 0;
+    }
+  }
+  &.no-borders.no-borders {
+    border-width: 0;
+  }
+}
+
+.display-grid.display-flip {
+  .d-copy {
+    border-width: 0;
+    border-color: #EEE;
+    border-style: solid;
+    @include breakpoint(tabletportrait) {
+      border-width: 0 0 0 1px;
+    }
+  }
+  .display-image {
+    border-width: 0;
+    border-color: #EEE;
+    border-style: solid;
+    @include breakpoint(tabletportrait) {
+      border-width: 0 0 0 0;
+    }
+  }
+  .no-borders {
+    border-width: 0;
+  }
+}
+
+.display-hero-panel {
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  border-color: #EEE;
+  position: relative;
+  top: -7px;
+  .panel-copy {
+    padding: 30px 0 15px 0;
+    text-align: center;
+    h4 {
+      font-weight: 900;
+      font-weight: 900;
+      font-size: 1.2em;
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 6px 0 10px 0;
+    }
+  }
+}
+
+// Specific css positioning.
+
+.help-row {
+  top: -7px;
+}
+
+.career-row {
+  top: -7px;
+}
+
+.calendarr-row, .cal-modal-row {
+  position: relative;
+  top: -7px;
+}
+
+.contact-img {
+  position: relative;
+  top: 3px;
+}
+
+.login-img {
+  position: relative;
+  top: -3px;
+}
+
+.go-mobile-calendar {
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  border-color: #EEE;
+  top: -7px;
+  img {
+    position: relative;
+    top: 4px;
+  }
+}
+
+.go-marketing-website {
+  background: #FAFAFA;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  border-color: #EEE;
+  position: relative;
+  top: -7px;
+  img {
+    position: relative;
+    top: 3px;
+  }
+}
