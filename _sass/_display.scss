@@ -1,5 +1,6 @@
 .display-container {
-  background: #FFF;
+  background: #F1F4F7;
+  background-image: linear-gradient(180deg, #FAFAFA 0%, #F1F4F7 100%);
   margin-bottom: 100px;
   width: 100%;
   @include clear();
@@ -15,6 +16,11 @@
       }
     }
   }
+}
+
+.display--info-container {
+  margin: 0 auto;
+  max-width: 1100px;
 }
 
 .display-mobile {
@@ -33,6 +39,9 @@
 
 .display-hero {
   width: 100%;
+  @media only screen and (max-width: 600px) {
+    margin-top: 11em;
+  }
   img {
     max-width: 100%;
   }
@@ -64,7 +73,7 @@
   padding: 0;
   margin: 0;
   img {
-    max-width: 65%;
+    max-width: 100%;
   }
   .display-cpy-container {
     padding: 3% 15% 3% 10%;
@@ -160,7 +169,7 @@
     border-color: #EEE;
     border-style: solid;
     @include breakpoint(tabletportrait) {
-      border-width: 0 0 0 1px;
+      border-width: 0 0 0 0px;
     }
   }
   .display-image {
@@ -168,7 +177,7 @@
     border-color: #EEE;
     border-style: solid;
     @include breakpoint(tabletportrait) {
-      border-width: 0 0 0 0;
+      border-width: 0 1px 0 0;
     }
   }
   .no-borders {
@@ -177,11 +186,12 @@
 }
 
 .display-hero-panel {
+  background: #FFF;
   border-style: solid;
   border-width: 0 1px 1px 1px;
   border-color: #EEE;
   position: relative;
-  top: -7px;
+  top: -9px;
   .panel-copy {
     padding: 30px 0 15px 0;
     text-align: center;
@@ -211,12 +221,12 @@
 
 .calendarr-row, .cal-modal-row {
   position: relative;
-  top: -7px;
+  top: -9px;
 }
 
 .contact-img {
   position: relative;
-  top: 3px;
+  top: 2px;
 }
 
 .login-img {
@@ -228,7 +238,7 @@
   border-style: solid;
   border-width: 0 1px 1px 1px;
   border-color: #EEE;
-  top: -7px;
+  top: -11px;
   img {
     position: relative;
     top: 4px;
