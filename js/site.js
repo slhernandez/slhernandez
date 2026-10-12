@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
           cardContainer.append(teaser);
         }
 
-        // add the load more button back.
-        const updateLoadBtn = document.querySelector(".load-more");
-        if (updateLoadBtn) {
+        // add the next page's load more button, if there is one.
+        if (loadMoreBtn) {
           insertAfter(loadMoreBtn, cardContainer);
+          bindLoadMore();
         }
       });
   }

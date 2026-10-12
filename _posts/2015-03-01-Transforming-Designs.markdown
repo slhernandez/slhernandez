@@ -12,7 +12,7 @@ categories: coding
 background-override: transform
 ---
 
-I created several mockups of a mobile iOS app called [WikiBand](http://slhernandez.com/wikiband/).  This idea has gone through several iterations during the past year.  In fact, it has changed drastically since it’s inception.  You can just look at the difference between the headline screen shot of this post and what can be discovered from my portfolio.  Anyway, I started to code the most recent designs of my mockups.  I thought it would be a nice idea to document the process on this website.
+I created several mockups of a mobile iOS app called [WikiBand](/portfolio/wikiband.html).  This idea has gone through several iterations during the past year.  In fact, it has changed drastically since it’s inception.  You can just look at the difference between the headline screen shot of this post and what can be discovered from my portfolio.  Anyway, I started to code the most recent designs of my mockups.  I thought it would be a nice idea to document the process on this website.
 
 The posts devoted to WikiBand and the process of making it into a living and breathing piece of software will be sporadic.  But I hope the act of journaling the effort will pay me handsomely sometime in the future.  The actual posts won’t be a step-by-step recipe of how the app is constructed.  I just want to highlight some of the key aspects of technology that was required to bring this design to the screen.
 
