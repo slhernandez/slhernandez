@@ -15,7 +15,7 @@ What do you use to implement a grid in iOS?  Simple answer.  UICollectionViews. 
 
 ```UICollectionView``` are data-source and delegate-driven just like UITableView.  It doesn't know about actual content.  It is a dumb container ready for a collection of subviews like ```UICollectionViewCell```.
 
-I don't intend to provide a step by step tutorial on how to setup a multi-column grid layout.  There are quite a few tutorials that you can find with a simple google search.  What follows is a small description on the type of grid layout I decided to go with for WikiBand.  WikiBand is small hobby project that is slowly taking a life of it's own.  You can find out more information with my previous blog post [Transforming Designs to Real Pixels](http://slhernandez.com/2015/03/01/Transforming-Designs/).
+I don't intend to provide a step by step tutorial on how to setup a multi-column grid layout.  There are quite a few tutorials that you can find with a simple google search.  What follows is a small description on the type of grid layout I decided to go with for WikiBand.  WikiBand is small hobby project that is slowly taking a life of it's own.  You can find out more information with my previous blog post [Transforming Designs to Real Pixels]({% post_url 2015-03-01-Transforming-Designs %}).
 
 When you launch WikiBand for the first time, the app will collect a list of albums currently purchased from a user's iTunes library.  It ultimately came down to two simple layouts. Should I use a three column layout or a more readable two column layout.  Below are two versions of WikiBand that use the two column approach.  One with white borders for each tile.  And a second version with no borders.
 
